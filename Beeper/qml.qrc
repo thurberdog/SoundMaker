@@ -1,0 +1,352 @@
+<RCC>
+    <qresource prefix="/">
+        <file>mainview.qml</file>
+        <file>ScitonScreen.qml</file>
+        <file>components/Screen.qml</file>
+        <file>components/CodeEntry.qml</file>
+        <file>components/ServiceTextInput2.qml</file>
+        <file>components/Warning.qml</file>
+        <file>components/ImageButton.qml</file>
+        <file>components/Audio.qml</file>
+        <file>components/BlinkControl.qml</file>
+        <file>components/TextCtl.qml</file>
+        <file>components/Adapter1Reminder.qml</file>
+        <file>components/ErrorDialogBox.qml</file>
+        <file>components/SystemMessageModel.qml</file>
+        <file>images/g2h2/scrnCenterSciton.png</file>
+        <file>images/g2h2/BBL/217_Adaptersmallsqrgold.png</file>
+        <file>images/g2h2/001_jouleLogo.png</file>
+        <file>images/g2h2/BBLtopBanner.png</file>
+        <file>images/g2h2/BBLbottomBanner.png</file>
+        <file>images/g2h2/mainGeometricBack.png</file>
+        <file>components/Style.qml</file>
+        <file>images/g2h2/keypad/0 push_Artboard 1.png</file>
+        <file>images/g2h2/keypad/0_Artboard 1.png</file>
+        <file>images/g2h2/keypad/1 push_Artboard 1.png</file>
+        <file>images/g2h2/keypad/1_Artboard 1.png</file>
+        <file>images/g2h2/keypad/2 push_Artboard 1.png</file>
+        <file>images/g2h2/keypad/2_Artboard 1.png</file>
+        <file>images/g2h2/keypad/3 push_Artboard 1.png</file>
+        <file>images/g2h2/keypad/3_Artboard 1.png</file>
+        <file>images/g2h2/keypad/4 push_Artboard 1.png</file>
+        <file>images/g2h2/keypad/4_Artboard 1.png</file>
+        <file>images/g2h2/keypad/5 push_Artboard 1.png</file>
+        <file>images/g2h2/keypad/5_Artboard 1.png</file>
+        <file>images/g2h2/keypad/6 push_Artboard 1.png</file>
+        <file>images/g2h2/keypad/6_Artboard 1.png</file>
+        <file>images/g2h2/keypad/7 push_Artboard 1.png</file>
+        <file>images/g2h2/keypad/7_Artboard 1.png</file>
+        <file>images/g2h2/keypad/8 push_Artboard 1.png</file>
+        <file>images/g2h2/keypad/8_Artboard 1.png</file>
+        <file>images/g2h2/keypad/9 push_Artboard 1.png</file>
+        <file>images/g2h2/keypad/9_Artboard 1.png</file>
+        <file>images/g2h2/keypad/button0.png</file>
+        <file>images/g2h2/keypad/button0_push.png</file>
+        <file>images/g2h2/keypad/button1.png</file>
+        <file>images/g2h2/keypad/button1_push.png</file>
+        <file>images/g2h2/keypad/button2.png</file>
+        <file>images/g2h2/keypad/button2_push.png</file>
+        <file>images/g2h2/keypad/button3.png</file>
+        <file>images/g2h2/keypad/button3_push.png</file>
+        <file>images/g2h2/keypad/button4.png</file>
+        <file>images/g2h2/keypad/button4_push.png</file>
+        <file>images/g2h2/keypad/button5.png</file>
+        <file>images/g2h2/keypad/button5_push.png</file>
+        <file>images/g2h2/keypad/button6.png</file>
+        <file>images/g2h2/keypad/button6_push.png</file>
+        <file>images/g2h2/keypad/button7.png</file>
+        <file>images/g2h2/keypad/button7_push.png</file>
+        <file>images/g2h2/keypad/button8.png</file>
+        <file>images/g2h2/keypad/button8_push.png</file>
+        <file>images/g2h2/keypad/button9.png</file>
+        <file>images/g2h2/keypad/button9_push.png</file>
+        <file>images/g2h2/keypad/buttonClear.png</file>
+        <file>images/g2h2/keypad/buttonClear_push.png</file>
+        <file>images/g2h2/keypad/buttonEnter.png</file>
+        <file>images/g2h2/keypad/buttonEnter_push.png</file>
+        <file>images/g2h2/keypad/clear push_Artboard 1.png</file>
+        <file>images/g2h2/keypad/clear_Artboard 1.png</file>
+        <file>images/g2h2/keypad/delete push_Artboard 1.png</file>
+        <file>images/g2h2/keypad/delete_Artboard 1.png</file>
+        <file>images/g2h2/keypad/enter push_Artboard 1.png</file>
+        <file>images/g2h2/keypad/enter_Artboard 1.png</file>
+        <file>beep.cpp</file>
+        <file>beep.h</file>
+        <file>main.cpp</file>
+        <file>images/g2h2/099_Back.png</file>
+        <file>images/g2h2/445_applysetting.png</file>
+        <file>images/g2h2/JouleStandbyButton.png</file>
+        <file>images/internal_button_dn.bmp</file>
+        <file>images/internal_button_up.bmp</file>
+        <file>images/Halo/Exit_pushed_NumPad.png</file>
+        <file>images/g2h2/445_btnApply.png</file>
+        <file>bblManualMode.qml</file>
+        <file>components/ScreenFLuenceWidthTemperature.qml</file>
+        <file>components/Counter.qml</file>
+        <file>components/ScitonRepeater.qml</file>
+        <file>components/NumericSelector.qml</file>
+        <file>components/Temperature.qml</file>
+        <file>images/g2h2/BBL/134_foreGround.png</file>
+        <file>images/g2h2/BBL/216_btnAdaptergoldfull.png</file>
+        <file>images/g2h2/BBL/216_btnAdaptergoldfullOn.png</file>
+        <file>images/g2h2/BBL/217_btnAdaptersmallspot.png</file>
+        <file>images/g2h2/BBL/217_btnAdaptersmallsqrgold.png</file>
+        <file>images/g2h2/BBL/217_btnAdaptersmallsqrgoldOn.png</file>
+        <file>images/g2h2/BBL/429_bblLogo.png</file>
+        <file>images/g2h2/BBL/431_btnFaceselected.png</file>
+        <file>images/g2h2/BBL/431_btnFaceselectedOff.png</file>
+        <file>images/g2h2/BBL/432_btnBodyselected.png</file>
+        <file>images/g2h2/BBL/432_btnBodyselectedOff.png</file>
+        <file>images/g2h2/BBL/433_SkType1.png</file>
+        <file>images/g2h2/BBL/433_SkType1on.png</file>
+        <file>images/g2h2/BBL/433_SkType3.png</file>
+        <file>images/g2h2/BBL/433_SkType3on.png</file>
+        <file>images/g2h2/BBL/433_SkType5.png</file>
+        <file>images/g2h2/BBL/433_SkType5on.png</file>
+        <file>images/g2h2/BBL/447_sclSkinTypeOff.png</file>
+        <file>images/g2h2/BBL/448_sclTreatAreaOff.png</file>
+        <file>images/g2h2/BBL/458_icnFace.png</file>
+        <file>images/g2h2/BBL/458_sclSkinTypeOff.png</file>
+        <file>images/g2h2/BBL/459_icnBody.png</file>
+        <file>images/g2h2/BBL/465_btnLBrwnOff.png</file>
+        <file>images/g2h2/BBL/465_btnLBrwnOn.png</file>
+        <file>images/g2h2/BBL/465_icnSkinLightBrown.png</file>
+        <file>images/g2h2/BBL/466_btnDkBrwnOff.png</file>
+        <file>images/g2h2/BBL/466_btnDkBrwnOn.png</file>
+        <file>images/g2h2/BBL/466_icnSkinDarkBrown.png</file>
+        <file>images/g2h2/BBL/467_btnBlkOff.png</file>
+        <file>images/g2h2/BBL/467_btnBlkOn.png</file>
+        <file>images/g2h2/BBL/467_icnSkinBlack.png</file>
+        <file>images/g2h2/BBL/468_btnFineHairOff.png</file>
+        <file>images/g2h2/BBL/468_btnFineHairOn.png</file>
+        <file>images/g2h2/BBL/468_icnFineHair.png</file>
+        <file>images/g2h2/BBL/469_btnMedHairOff.png</file>
+        <file>images/g2h2/BBL/469_btnMedHairOn.png</file>
+        <file>images/g2h2/BBL/469_icnMediumHair.png</file>
+        <file>images/g2h2/BBL/470_btnCoarseHairOff.png</file>
+        <file>images/g2h2/BBL/470_btnCoarseHairOn.png</file>
+        <file>images/g2h2/BBL/470_icnCoarseHair.png</file>
+        <file>images/g2h2/BBL/471_btnLowDenseHairOff.png</file>
+        <file>images/g2h2/BBL/471_btnLowDenseHairOn.png</file>
+        <file>images/g2h2/BBL/471_icnLowDense.png</file>
+        <file>images/g2h2/BBL/472_btnMedDenseHairOff.png</file>
+        <file>images/g2h2/BBL/472_btnMedDenseHairOn.png</file>
+        <file>images/g2h2/BBL/472_icnMedDense.png</file>
+        <file>images/g2h2/BBL/473_btnHighDenseHairOff.png</file>
+        <file>images/g2h2/BBL/473_btnHighDenseHairOn.png</file>
+        <file>images/g2h2/BBL/473_icnHighDense.png</file>
+        <file>images/g2h2/BBL/480_btnFBMotionMain.png</file>
+        <file>images/g2h2/BBL/482_btnHRstaticMain.png</file>
+        <file>images/g2h2/BBL/484_btnAcne.png</file>
+        <file>images/g2h2/BBL/486_btnPigment_main.png</file>
+        <file>images/g2h2/BBL/488_btnVascular_main.png</file>
+        <file>images/g2h2/BBL/490_btnHairRemoval_main.png</file>
+        <file>images/g2h2/BBL/492_btnSkinTyte_main.png</file>
+        <file>images/g2h2/BBL/494_ManualMode_main.png</file>
+        <file>images/g2h2/BBL/498_btnAdapterfull.png</file>
+        <file>images/g2h2/BBL/498_icnAdapterLg.png</file>
+        <file>images/g2h2/BBL/499_btnAdaptersmallsqrgrey.png</file>
+        <file>images/g2h2/BBL/499_icnAdapterSm.png</file>
+        <file>images/g2h2/BBL/499_iconRectAdapter.png</file>
+        <file>images/g2h2/BBL/500_icnAdapterSpot.png</file>
+        <file>images/g2h2/BBL/502_btnDarkSkin.png</file>
+        <file>images/g2h2/BBL/502_btnDarkSkinselected.png</file>
+        <file>images/g2h2/BBL/503_btnLightSkin.png</file>
+        <file>images/g2h2/BBL/503_btnLightSkinselected.png</file>
+        <file>images/g2h2/BBL/509_btnManualMode.png</file>
+        <file>images/g2h2/BBL/512_btnSkinTyteMotionMain.png</file>
+        <file>images/g2h2/BBL/514_btnSkinTyteStaticMain.png</file>
+        <file>images/g2h2/BBL/515_btnAdaptersmallspot.png</file>
+        <file>images/g2h2/BBL/515_icnSmallspotAdapter.png</file>
+        <file>images/g2h2/BBL/519_btnRosaceaMain.png</file>
+        <file>images/g2h2/BBL/521_btnFacialMain.png</file>
+        <file>images/g2h2/BBL/523_btnCherryMain.png</file>
+        <file>images/g2h2/BBL/525_btnBruiseMain.png</file>
+        <file>images/g2h2/BBL/527_btnBodyMain.png</file>
+        <file>images/g2h2/BBL/530_btnskintype3_4.png</file>
+        <file>images/g2h2/BBL/531_btnskintype3_4.png</file>
+        <file>images/g2h2/BBL/535_btnM-RCL.png</file>
+        <file>images/g2h2/BBL/536_btnM-STO.png</file>
+        <file>images/g2h2/BBL/553_btnHairRemoval_off.png</file>
+        <file>images/g2h2/BBL/554_btnSkinTyte_off.png</file>
+        <file>images/g2h2/BBL/684_icnSkintype2.png</file>
+        <file>images/g2h2/BBL/684_icnSkintype3.png</file>
+        <file>images/g2h2/BBL/684_icnSkintype3_4.png</file>
+        <file>images/g2h2/BBL/684_icnSkintype4.png</file>
+        <file>images/g2h2/BBL/684_icnSkintype5.png</file>
+        <file>images/g2h2/BBL/718_btnFY.png</file>
+        <file>images/g2h2/BBL/728_btnApply.png</file>
+        <file>images/g2h2/BBL/728_btnApplyb.png</file>
+        <file>images/g2h2/BBL/728_btnApplyblkblu.png</file>
+        <file>images/g2h2/BBL/728_btnContinue.png</file>
+        <file>images/g2h2/BBL/728_btnContinue_blkblu.png</file>
+        <file>images/g2h2/BBL/728_btnContinueb.png</file>
+        <file>images/g2h2/BBL/728_btnContinuePurpl.png</file>
+        <file>images/g2h2/BBL/749_btnskintype1_2.png</file>
+        <file>images/g2h2/BBL/750_btnskintype1_2.png</file>
+        <file>images/g2h2/BBL/751_btnskintype3.png</file>
+        <file>images/g2h2/BBL/752_btnskintype3.png</file>
+        <file>images/g2h2/BBL/753_btnskintype4.png</file>
+        <file>images/g2h2/BBL/754_btnskintype4.png</file>
+        <file>images/g2h2/BBL/755_btnskintype5.png</file>
+        <file>images/g2h2/BBL/756_btnskintype5.png</file>
+        <file>images/g2h2/BBL/757_FClear_logo.png</file>
+        <file>images/g2h2/BBL/758_logoFY.png</file>
+        <file>images/g2h2/BBL/759_bgSelectGroup.png</file>
+        <file>images/g2h2/BBL/760_btnBase.png</file>
+        <file>images/g2h2/BBL/762_btnVascular.png</file>
+        <file>images/g2h2/BBL/764_btnPigment.png</file>
+        <file>images/g2h2/BBL/766_btnSkinTyte.png</file>
+        <file>images/g2h2/BBL/806.bmp</file>
+        <file>images/g2h2/BBL/897_btnStep1Acne.png</file>
+        <file>images/g2h2/BBL/899_btnStep2Redness.png</file>
+        <file>images/g2h2/BBL/900_btnStep3Skin.png</file>
+        <file>images/g2h2/BBL/906_btnFC.png</file>
+        <file>images/g2h2/BBL/918_splashFY.png</file>
+        <file>images/g2h2/BBL/920_logoFB.png</file>
+        <file>images/g2h2/BBL/Apply2.png</file>
+        <file>images/g2h2/BBL/bbl_logo.png</file>
+        <file>images/g2h2/BBL/bblBtnSkinType1_2.png</file>
+        <file>images/g2h2/BBL/bblBtnSkinType3_4.png</file>
+        <file>images/g2h2/BBL/bblBtnSkinType5.png</file>
+        <file>images/g2h2/BBL/bblMode1.png</file>
+        <file>images/g2h2/BBL/bblMode2.png</file>
+        <file>images/g2h2/BBL/bblMode3.png</file>
+        <file>images/g2h2/BBL/bblSkinType1.png</file>
+        <file>images/g2h2/BBL/bblSkinType1_2.png</file>
+        <file>images/g2h2/BBL/bblSkinType2.png</file>
+        <file>images/g2h2/BBL/bblSkinType3.png</file>
+        <file>images/g2h2/BBL/bblSkinType3_4.png</file>
+        <file>images/g2h2/BBL/bblSkinType4.png</file>
+        <file>images/g2h2/BBL/bblSkinType5.png</file>
+        <file>images/g2h2/BBL/checkMark.png</file>
+        <file>images/g2h2/BBL/counter_reset.png</file>
+        <file>images/g2h2/BBL/Ready.png</file>
+        <file>images/g2h2/BBL/Ready2.png</file>
+        <file>images/g2h2/BBL/sclSkinType.png</file>
+        <file>images/g2h2/BBL/sclSkinType1.png</file>
+        <file>images/g2h2/BBL/sclSkinType2.png</file>
+        <file>images/g2h2/BBL/sclSkinType3.png</file>
+        <file>images/g2h2/BBL/sclSkinType4.png</file>
+        <file>images/g2h2/BBL/sclSkinType5.png</file>
+        <file>images/g2h2/BBL/SelectAreasArrow.png</file>
+        <file>images/g2h2/BBL/Temp_Indicator.png</file>
+        <file>images/g2h2/BBL/Temp_scaling.png</file>
+        <file>images/g2h2/BBL/Treat.png</file>
+        <file>images/g2h2/BBL/Treat2.png</file>
+        <file>images/BBL/507.bmp</file>
+        <file>images/BBL/507.png</file>
+        <file>images/BBL/508.bmp</file>
+        <file>images/BBL/537_btn1.bmp</file>
+        <file>images/BBL/538_btn2.bmp</file>
+        <file>images/BBL/539_btn3.bmp</file>
+        <file>images/BBL/678_adapterSqr.bmp</file>
+        <file>images/BBL/679_adapterRec.bmp</file>
+        <file>images/BBL/728.bmp</file>
+        <file>images/BBL/729.bmp</file>
+        <file>images/BBL/730.bmp</file>
+        <file>images/BBL/731.bmp</file>
+        <file>images/BBL/903_adapterRec.bmp</file>
+        <file>images/BBL/904_adapterCir.bmp</file>
+        <file>images/BBL/905_adpaterSqr.bmp</file>
+        <file>images/BBL/915_adapterSqr.bmp</file>
+        <file>images/BBL/916_adapterCir.bmp</file>
+        <file>images/BBL/917_circularAdapter.bmp</file>
+        <file>images/BBL/checkmark.png</file>
+        <file>images/BBL/cir_adapter_1x.png</file>
+        <file>images/BBL/rect_cir_adapter.png</file>
+        <file>images/BBL/shotsmart_counter.bmp</file>
+        <file>images/BBL/Temp_Indicator.png</file>
+        <file>images/g2h2/001_Logo_Joule7.png</file>
+        <file>images/g2h2/002_background.png</file>
+        <file>images/g2h2/130_btnStandby.png</file>
+        <file>images/g2h2/131_btnReady.png</file>
+        <file>images/g2h2/131_btnReadyRed.png</file>
+        <file>images/g2h2/132_btnTreat.png</file>
+        <file>images/g2h2/133_btnPost.png</file>
+        <file>images/g2h2/137_btnReset.png</file>
+        <file>images/g2h2/137_btnResetLarge.png</file>
+        <file>images/g2h2/138_btnResetGrey.png</file>
+        <file>images/g2h2/434_skinTypeSelect.png</file>
+        <file>images/g2h2/456_layer.png</file>
+        <file>images/g2h2/456_template.png</file>
+        <file>images/g2h2/496_adapterSelect.png</file>
+        <file>images/g2h2/532_areaSelect.png</file>
+        <file>images/g2h2/822_btnSave.png</file>
+        <file>images/g2h2/930_lightGreyBox480.png</file>
+        <file>images/g2h2/931_greyBox480.png</file>
+        <file>images/g2h2/940_btnArrows.png</file>
+        <file>images/g2h2/941_btnArrow.png</file>
+        <file>images/g2h2/950_btnFaceArea.png</file>
+        <file>images/g2h2/951_btnNeckArea.png</file>
+        <file>images/g2h2/952_btnChestArea.png</file>
+        <file>images/g2h2/953_btnHandArea.png</file>
+        <file>images/g2h2/954_btn_4way.png</file>
+        <file>images/g2h2/955_iconFacial.png</file>
+        <file>images/g2h2/999_logoSciton.png</file>
+        <file>images/g2h2/arrowDnBtn.png</file>
+        <file>images/g2h2/arrowUpBtn.png</file>
+        <file>images/g2h2/BBL-complete screen.png</file>
+        <file>images/g2h2/BBL_newDownButton.png</file>
+        <file>images/g2h2/BBL_newLeftButton.png</file>
+        <file>images/g2h2/BBL_newRightButton.png</file>
+        <file>images/g2h2/BBL_newUpButton.png</file>
+        <file>images/g2h2/BBLMrecallButton.png</file>
+        <file>images/g2h2/BBLMstoreButton.png</file>
+        <file>images/g2h2/BBLResetButton.png</file>
+        <file>images/g2h2/Button_down.png</file>
+        <file>images/g2h2/Button_left.png</file>
+        <file>images/g2h2/Button_right.png</file>
+        <file>images/g2h2/Button_up.png</file>
+        <file>images/g2h2/diVa.png</file>
+        <file>images/g2h2/entrypad.png</file>
+        <file>images/g2h2/icon_DownScan.png</file>
+        <file>images/g2h2/icon_GridArray.png</file>
+        <file>images/g2h2/icon_Position.png</file>
+        <file>images/g2h2/icon_RandomArray.png</file>
+        <file>images/g2h2/icon_RandomScan.png</file>
+        <file>images/g2h2/icon_UpScan.png</file>
+        <file>images/g2h2/JOULE_Logo.png</file>
+        <file>images/g2h2/JoulePostButton.png</file>
+        <file>images/g2h2/JouleTreatButton.png</file>
+        <file>images/g2h2/keypad.png</file>
+        <file>images/g2h2/PF_11GridCoverage.png</file>
+        <file>images/g2h2/PF_11RandomCoverage.png</file>
+        <file>images/g2h2/PF_1Pattern.png</file>
+        <file>images/g2h2/PF_22GridCoverage.png</file>
+        <file>images/g2h2/PF_22RandomCoverage.png</file>
+        <file>images/g2h2/PF_2Pattern.png</file>
+        <file>images/g2h2/PF_3Pattern.png</file>
+        <file>images/g2h2/PF_4Pattern.png</file>
+        <file>images/g2h2/PF_5GridCoverage.png</file>
+        <file>images/g2h2/PF_5Pattern.png</file>
+        <file>images/g2h2/PF_6Pattern.png</file>
+        <file>images/g2h2/PF_7Pattern.png</file>
+        <file>images/g2h2/PF_8Pattern.png</file>
+        <file>images/g2h2/PF_Ablate_Coag.png</file>
+        <file>images/g2h2/PF_Coverage.png</file>
+        <file>images/g2h2/PF_DownScan_Arrow.png</file>
+        <file>images/g2h2/PF_Pattern Size.png</file>
+        <file>images/g2h2/PF_RandomScan_Arrow.png</file>
+        <file>images/g2h2/PF_UpScan_Arrow.png</file>
+        <file>images/g2h2/qml_arrowDn.png</file>
+        <file>images/g2h2/qml_arrowUp.png</file>
+        <file>images/g2h2/TRL CO2.png</file>
+        <file>images/g2h2/TRL Emulate.png</file>
+        <file>images/g2h2/TRL YSGG.png</file>
+        <file>images/g2h2/TRL10_Overlap.png</file>
+        <file>images/g2h2/TRL10_OverlapSelected.png</file>
+        <file>images/g2h2/TRL20_Overlap.png</file>
+        <file>images/g2h2/TRL20_OverlapSelected.png</file>
+        <file>images/g2h2/TRL30_Overlap.png</file>
+        <file>images/g2h2/TRL30_OverlapSelected.png</file>
+        <file>images/g2h2/TRL40_Overlap.png</file>
+        <file>images/g2h2/TRL40_OverlapSelected.png</file>
+        <file>images/g2h2/TRL50_Overlap.png</file>
+        <file>images/g2h2/TRL50_OverlapSelected.png</file>
+        <file>images/g2h2/TRL_PatternLineWhite.png</file>
+        <file>images/g2h2/TRL_PatternLineYellow.png</file>
+        <file>images/g2h2/TRL_PatternSquareWhite.png</file>
+        <file>images/g2h2/TRL_PatternSquareYellow.png</file>
+    </qresource>
+</RCC>
