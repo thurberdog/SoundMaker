@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/">
+        <file>mainview.qml</file>
+        <file>beep.cpp</file>
+        <file>beep.h</file>
+        <file>main.cpp</file>
+        <file>demo.qml</file>
+        <file>images/g2h2/scrnCenterSciton.png</file>
+        <file>sounds/beep1.wav</file>
+        <file>sounds/button.wav</file>
+        <file>sounds/ding.wav</file>
+        <file>sounds/handpiece.wav</file>
+        <file>sounds/limit.wav</file>
+        <file>sounds/longbeep.wav</file>
+        <file>sounds/range.wav</file>
+        <file>sounds/sine2k.wav</file>
+        <file>sounds/warning.wav</file>
+    </qresource>
+</RCC>
