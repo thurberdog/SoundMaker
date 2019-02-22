@@ -25,12 +25,12 @@ Rectangle {
                 if (rec1.on) {
                     timestamplog("Loading beep1.wav")
                     rec1.color = "red"
-                    beeper.openwave("/application/src/sounds/beep1.wav")
+                    beeper.openwave("/application/src/sounds/Chime_muc.wav")
                     beeper.play()
                 } else {
                     timestamplog("Loading button.wav")
                     rec1.color = "green"
-                    beeper.openwave("/application/src/sounds/button.wav")
+                    beeper.openwave("/application/src/sounds/Plastic_Button_17.wav")
                     beeper.play()
                 }
             }
@@ -53,12 +53,12 @@ Rectangle {
                 if (rec2.on) {
                     timestamplog("Loading ding.wav")
                     rec2.color = "white"
-                    beeper.openwave("/application/src/sounds/ding.wav")
+                    beeper.openwave("/application/src/sounds/sci_fi_beep_off.wav")
                     beeper.play()
                 } else {
                     timestamplog("Loading handpiece.wav")
                     rec2.color = "purple"
-                    beeper.openwave("/application/src/sounds/handpiece.wav")
+                    beeper.openwave("/application/src/sounds/SW001_8-Bit-Games-191_Pickup_Coin.wav")
                     beeper.play()
                 }
             }

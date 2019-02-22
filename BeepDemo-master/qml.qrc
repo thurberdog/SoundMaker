@@ -15,5 +15,9 @@
         <file>sounds/range.wav</file>
         <file>sounds/sine2k.wav</file>
         <file>sounds/warning.wav</file>
+        <file>sounds/Chime_musical_BLASTWAVEFX_16359.wav</file>
+        <file>sounds/SW001_8-Bit-Games-191_Pickup_Coin.wav</file>
+        <file>sounds/sci_fi_beep_off.wav</file>
+        <file>sounds/Plastic_Button_17.wav</file>
     </qresource>
 </RCC>

@@ -11,8 +11,6 @@ Beep::Beep(QObject *parent) :
 {
     m_wavePtr = nullptr;
     m_open = false;
-    m_duration = 2000;
-    m_frequency = 50;
     ct = QTime::currentTime ();
     qDebug() << __FUNCTION__ << __LINE__ << ct << "Beep object created";
 }
@@ -43,8 +41,8 @@ bool Beep::init()
     int err;
     snd_pcm_stream_t stream = SND_PCM_STREAM_PLAYBACK;
     int mode = SND_PCM_NONBLOCK;
-    //mode =0;
-    // mode = SND_PCM_ASYNC;
+    // mode =0;
+    mode = SND_PCM_ASYNC;
     // The third parameter to snd_pcm_open, by the way, indicates the direction of the stream.
     // The only other option here is SND_PCM_STREAM_CAPTURE, which obviously captures audio instead of playing it.
     // The final parameter to snd_pcm_open is the mode in which to open the device.
@@ -174,6 +172,9 @@ bool Beep::isOpen()
  */
 bool Beep::openwave(const QString &path)
 {
+
+    m_waveFile = path;
+    return true;
     // No wave data loaded yet
     m_wavePtr = nullptr;
     qDebug() << QTime::currentTime() << __FUNCTION__ << __LINE__ << " Openwave setting Params about to be called";
@@ -257,7 +258,10 @@ int Beep::write_wave()
  */
 void Beep::play()
 {
-    qDebug() <<QTime::currentTime()<< __FUNCTION__ << __LINE__ << "about to play wave file";
+    qDebug() <<QTime::currentTime()<< __FUNCTION__ << __LINE__ << "about to play wave file:" +m_waveFile;
+    QString returnCode =  execute("aplay "+m_waveFile);
+    qDebug()<<"aplay return code: "<< returnCode;
+       return;
     if (m_wavePtr && isOpen())
     {
         snd_pcm_uframes_t	count;

@@ -131,6 +131,7 @@ private:
     int m_frequency;
     int play_error_recover(int error_code);
     int write_wave();
+    QString m_waveFile;
 };
 
 #endif // BEEP_H

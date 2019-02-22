@@ -6,7 +6,7 @@
 
 int main(int argc, char *argv[])
 {
-   QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
+   //QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
    Beep *m_beep;
    m_beep = new Beep();
    QGuiApplication app(argc, argv);

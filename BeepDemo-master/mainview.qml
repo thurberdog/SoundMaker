@@ -42,14 +42,19 @@ Window {
         }
         else {
             // Display module
-            beeper.openwave("/application/src/sounds/range.wav");
+            beeper.openwave("/application/src/sounds/sci_fi_beep_off.wav");
             beeper.play();
         }
         // restore to default settings
         beeper.setVolume(100);  //set to 100% volume [0..100]
         ////settings.setValue("loudness", Style.loudness);
-        beeper.openwave("/application/src/sounds/button.wav");
+        beeper.openwave("/application/src/sounds/Plastic Button 17.wav");
         //Load the menu as the initial screen
+        beeper.play();
+        beeper.openwave("/application/src/sounds/Chime musical_BLASTWAVEFX_16359.wav")
+        beeper.play();
+        beeper.openwave("application/src/sounds/SW001_8-Bit-Games-191_Pickup_Coin.wav")
+        beeper.play()
         loader.source =   "demo.qml";   // "ScitonTemplate.qml"  //
         firstLoad = false;
         timestamplog("Beep Demo")
